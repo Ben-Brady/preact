@@ -86,7 +86,7 @@ BaseComponent.prototype.render = Fragment;
 
 /**
  * @param {import('./internal').VNode} vnode
- * @param {number | NULL} [childIndex]
+ * @param {number | null} [childIndex]
  */
 export function getDomSibling(vnode, childIndex) {
 	if (childIndex == NULL) {
